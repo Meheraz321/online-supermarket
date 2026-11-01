@@ -5,8 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    // GitHub Pages এর জন্য আপনার রিপোজিটরির নাম অনুযায়ী base পাথ যোগ করা হয়েছে
-    base: '/online-supermarket/',
+    base: './', // এখানে সরাসরি './' দিয়ে দিন
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
@@ -14,10 +13,7 @@ export default defineConfig(() => {
       },
     },
     server: {
-      // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modify—file watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
-      // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
   };
