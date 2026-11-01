@@ -5,8 +5,8 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    // GitHub Pages এর জন্য আপনার রিপোজিটরির নাম অনুযায়ী base পাথ যোগ করা হয়েছে
-    base: '/online-supermarket/',
+    // GitHub Pages এর জন্য রিলেটিভ পাথ ব্যবহার করা হলো যাতে 404 এরর না আসে
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
