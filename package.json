@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Meheraz321.github.io/online-supermarket",
+  "homepage": "https://meheraz321.github.io/online-supermarket",
   "scripts": {
     "dev": "tsx server.ts",
     "build": "vite build",
