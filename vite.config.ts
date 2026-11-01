@@ -1,10 +1,12 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig} from 'vite';
+import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages এর জন্য আপনার রিপোজিটরির নাম অনুযায়ী base পাথ যোগ করা হয়েছে
+    base: '/online-supermarket/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
