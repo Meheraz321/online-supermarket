@@ -1,0 +1,6 @@
+{
+  "name": "SUPER MART - Online Supermarket & Hypermarket",
+  "description": "Premium multi-category online supermarket and grocery platform offering fresh produce, daily essentials, electronics, fashion, and home goods with instant delivery across Bangladesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
